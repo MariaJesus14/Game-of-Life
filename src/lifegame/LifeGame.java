@@ -20,8 +20,7 @@ public class LifeGame {
         imprimirtabla.pruebaAsignar1();
         //imprimirtabla.pruebaAsignar2();
         String tabla = imprimirtabla.metodo1();
-        String filas = imprimirtabla.contadorFilas();
-        String columnas = imprimirtabla.contadorColumnas();
+       
         gestores.mostrarMensaje(imprimirtabla.metodo1());
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
