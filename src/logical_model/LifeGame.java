@@ -22,12 +22,12 @@ public class LifeGame {
         String tabla = imprimirtabla.metodo1();
         
         gestores.mostrarMensaje(imprimirtabla.metodo1());
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
-        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.addCell(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
 //        
         //gestores.mostrarMensaje(imprimirtabla.metodo1());
         //imprimirtabla.vecinoInicial(0, 0)

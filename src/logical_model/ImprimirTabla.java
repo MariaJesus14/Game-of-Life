@@ -15,8 +15,11 @@ public class ImprimirTabla {
     private int[][] matrixPrueba2 = new int[20][20];
     private int[] arrayDatos = new int[3];
     
-    public ImprimirTabla (){
-        matrixPrueba = new String[SIZE][SIZE];
+    public void matrix_size(){
+     //   matrixPrueba = new String[SIZE][SIZE];
+    }
+    public ImprimirTabla(int row,int column){
+        matrixPrueba= new String [row][column];
     }
     
     public void pruebaAsignar1 (){
@@ -30,10 +33,10 @@ public class ImprimirTabla {
    
     
     
-    public void agregarCelula (int fila, int columna){
-        if(fila <0 && columna <0){
+    public void addCell (int row, int colunm){
+        if(row <0 && colunm <0){
         }else{
-            matrixPrueba[fila][columna] ="■" ;
+            matrixPrueba[row][colunm] ="■" ;
         }
     }
     

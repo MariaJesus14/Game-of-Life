@@ -12,9 +12,9 @@ package graphic_interface;
 public class Start_Game_Of_Life {
 
     
-   // public static void main(String[] args) {
+    public static void main(String[] args) {
         Window_start start = new Window_start();
-      //  start.windowMain();
-   // }
+        start.windowMain();
+    }
     
 }

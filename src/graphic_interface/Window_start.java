@@ -16,6 +16,7 @@ import javax.swing.JOptionPane;
 public class Window_start {
 
     Window_size size = new Window_size();
+    //Window_cell cell = new Window_cell();
 
     public void windowMain() {
         boolean back = true;

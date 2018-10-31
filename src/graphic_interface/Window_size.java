@@ -8,6 +8,8 @@ package graphic_interface;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import logical_model.ImprimirTabla;
+import logical_model.GestorEs;
 
 /**
  *
@@ -29,11 +31,17 @@ public class Window_size {
 
             switch (option) {
                 case "8 x 8":
+                    ImprimirTabla imprimir = new ImprimirTabla(8, 8);
+                    imprimir.pruebaAsignar1();
+                    JOptionPane.showMessageDialog(null, imprimir.metodo1());
                     cell.cell();
-                    back = true;
+                   
                     break;
                 case "9 x 9":
-
+                     ImprimirTabla imprimir1 = new ImprimirTabla(9, 9);
+                    imprimir1.pruebaAsignar1();
+                    JOptionPane.showMessageDialog(null, imprimir1.metodo1());
+                    cell.cell();
                     break;
                 case "10 x 10":
 
