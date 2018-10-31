@@ -26,7 +26,7 @@ public class Window_start {
         Icon bye = new ImageIcon(getClass().getResource("/graphic_interface/close-button.png"));
 
         while (back == true) {
-            int option = JOptionPane.showOptionDialog(null, "Bienvenido a el juego de la vida", "Juego de la vida", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, start, buttons, buttons[1]);
+            int option = JOptionPane.showOptionDialog(null, "Bienvenido al juego de la vida", "Juego de la vida", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, start, buttons, buttons[1]);
             switch (option) {
                 case 0:
                     JOptionPane.showConfirmDialog(null, "El juego de la vida ocurre en un tablero cuadriculado, en donde cada cuadro puede haber una célula o estar vacío.\n"
