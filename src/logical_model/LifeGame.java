@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lifegame;
+package logical_model;
 
 /**
  *
@@ -20,15 +20,22 @@ public class LifeGame {
         imprimirtabla.pruebaAsignar1();
         //imprimirtabla.pruebaAsignar2();
         String tabla = imprimirtabla.metodo1();
-       
+        
         gestores.mostrarMensaje(imprimirtabla.metodo1());
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+//        
         //gestores.mostrarMensaje(imprimirtabla.metodo1());
         //imprimirtabla.vecinoInicial(0, 0)
+        
         imprimirtabla.reglaGeneral1();
         gestores.mostrarMensaje(imprimirtabla.metodo1());
+       
+        
     }
     
 }

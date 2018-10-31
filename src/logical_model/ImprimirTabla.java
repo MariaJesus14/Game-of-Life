@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lifegame;
+package logical_model;
 
 /**
  *
@@ -107,4 +107,5 @@ public class ImprimirTabla {
           }
       }
   }
+
 }
