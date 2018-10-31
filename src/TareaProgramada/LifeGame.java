@@ -25,10 +25,17 @@ public class LifeGame {
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
         imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+        imprimirtabla.agregarCelula(gestores.pedirEntero("Introduzca la fila"), gestores.pedirEntero("Introduzca la columna"));
+//        
         //gestores.mostrarMensaje(imprimirtabla.metodo1());
         //imprimirtabla.vecinoInicial(0, 0)
+        
         imprimirtabla.reglaGeneral1();
         gestores.mostrarMensaje(imprimirtabla.metodo1());
+       
+        
     }
     
 }
