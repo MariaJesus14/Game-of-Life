@@ -8,7 +8,7 @@ package graphic_interface;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
-import logical_model.ImprimirTabla;
+import logical_model.Matrix;
 import logical_model.GestorEs;
 
 /**
@@ -18,7 +18,8 @@ import logical_model.GestorEs;
 public class Window_size {
 
     Window_cell cell = new Window_cell();
-    ImprimirTabla imprimir = new ImprimirTabla();
+    GestorEs gestor = new GestorEs();
+    
 
     public void size() {
         boolean back = true;
@@ -31,82 +32,82 @@ public class Window_size {
 
                 switch (option) {
                     case "8 x 8":
-                        imprimir.matrix_size(8);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(8);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
 
                         break;
                     case "9 x 9":
-                        imprimir.matrix_size(9);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(9);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "10 x 10":
-                        imprimir.matrix_size(10);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(10);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "11 x 11":
-                        imprimir.matrix_size(11);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(11);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "12 x 12":
-                        imprimir.matrix_size(12);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(12);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "13 x 13":
-                        imprimir.matrix_size(13);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(13);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "14 x 14":
-                        imprimir.matrix_size(14);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(14);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "15 x 15":
-                        imprimir.matrix_size(15);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(15);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "16 x 16":
-                        imprimir.matrix_size(16);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(16);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "17 x 17":
-                        imprimir.matrix_size(17);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(17);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "18 x 18":
-                        imprimir.matrix_size(18);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(18);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "19 x 19":
-                        imprimir.matrix_size(19);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(19);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     case "20 x 20":
-                        imprimir.matrix_size(20);
-                        imprimir.pruebaAsignar1();
-                        JOptionPane.showMessageDialog(null, imprimir.metodo1());
+                        Matrix.matrix_size(20);
+                        Matrix.createCells();
+                        JOptionPane.showMessageDialog(null, Matrix.printMatrix());
                         cell.cell();
                         break;
                     default:

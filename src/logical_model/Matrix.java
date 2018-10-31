@@ -9,33 +9,28 @@ package logical_model;
  *
  * @author Usuario
  */
-public class ImprimirTabla {
-    private String[][] matrixPrueba;
-    private final static int SIZE = 20;
-    private int[][] matrixPrueba2 = new int[20][20];
+public class Matrix {
+    private static String[][] matrixPrueba;
     private int[] arrayDatos = new int[3];
     
-    public void matrix_size(int size){
+    public Matrix() {
+    
+    }
+     public Matrix(int row,int column){
+        matrixPrueba= new String [row][column];
+    }
+    public static void matrix_size(int size){
       
       matrixPrueba= new String [size][size];
     }
-    public ImprimirTabla(int row,int column){
-        matrixPrueba= new String [row][column];
-    }
-    public ImprimirTabla() {
     
-    }
-    
-    public void pruebaAsignar1 (){
+    public static void createCells (){
         for (int i = 0; i < matrixPrueba.length; i++) {
             for (int j = 0; j < matrixPrueba.length; j++) {
                 matrixPrueba[i][j] ="□";
             }
         }
     }
-    
-   
-    
     
     public void addCell (int row, int colunm){
         if(row <0 && colunm <0){
@@ -44,15 +39,7 @@ public class ImprimirTabla {
         }
     }
     
-    
-    public void pruebaAsignar2 (){
-        for (int fila = 0; fila < matrixPrueba.length; fila++) {
-            for (int columna = 0; columna < matrixPrueba.length; columna+=2) {
-                matrixPrueba[fila][columna] ="■";
-            }
-        }
-    }
-    public String metodo1 (){
+    public static String printMatrix (){
         String tabla = "";
         for (int fila = 0; fila < matrixPrueba.length; fila++) {
             for (int columna = 0; columna < matrixPrueba.length; columna++) {
@@ -65,7 +52,7 @@ public class ImprimirTabla {
         return tabla;
     }
     
-    public int[] vecinoInicial (int rowsCelula, int columnsCelula){
+    public int[] starterNeighboor (int rowsCelula, int columnsCelula){
         int[] arrayDatos = new int[3];
         rowsCelula = rowsCelula-1;
         columnsCelula = columnsCelula-1;
@@ -85,16 +72,15 @@ public class ImprimirTabla {
             }
         }
         return this.arrayDatos = arrayDatos;
-    }
+    }   
     
-    
-    public void reglaGeneral1 (){
+    public void rule1 (){
       int alive = 0;
       int vecinoInicialFila = 0;
       int vecinoInicialColumna = 0;
       for (int rows = 0; rows < matrixPrueba.length; rows++) {
           for (int columns = 0; columns < matrixPrueba.length; columns++) {
-              vecinoInicial(rows, columns);
+              starterNeighboor(rows, columns);
               if(matrixPrueba[rows][columns]== "□"){
                   for ( vecinoInicialFila = arrayDatos[0]; vecinoInicialFila < arrayDatos[2]; vecinoInicialFila++) {
                       for ( vecinoInicialColumna = arrayDatos[1]; vecinoInicialColumna < arrayDatos[2]; vecinoInicialColumna++) {
