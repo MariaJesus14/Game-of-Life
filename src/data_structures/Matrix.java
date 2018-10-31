@@ -1,5 +1,5 @@
 
-package Structures;
+package data_structures;
 
 /**
  *
