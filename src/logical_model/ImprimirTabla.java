@@ -15,11 +15,15 @@ public class ImprimirTabla {
     private int[][] matrixPrueba2 = new int[20][20];
     private int[] arrayDatos = new int[3];
     
-    public void matrix_size(){
-     //   matrixPrueba = new String[SIZE][SIZE];
+    public void matrix_size(int size){
+      
+      matrixPrueba= new String [size][size];
     }
     public ImprimirTabla(int row,int column){
         matrixPrueba= new String [row][column];
+    }
+    public ImprimirTabla() {
+    
     }
     
     public void pruebaAsignar1 (){
