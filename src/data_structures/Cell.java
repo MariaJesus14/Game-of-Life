@@ -28,17 +28,17 @@ public class Cell {
     
     public static void rule1 (){ 
       int alive = 0;
-      int vecinoInicialFila;
-      int vecinoInicialColumna;
+      int NeighboorInitialRow;
+      int NeighboorInitialColumn;
       for (int rows = 0; rows < Matrix.matrixLenght(); rows++) {
           for (int columns = 0; columns < Matrix.matrixLenght(); columns++) {
             
               if(Matrix.getMatrixPosition(rows, columns).equals(Cell.dead())){
                    Matrix.starterNeighboor(rows, columns);
-                  for ( vecinoInicialFila = Matrix.getArrayDatosPosition(0); vecinoInicialFila < Matrix.getArrayDatosPosition(2); vecinoInicialFila++) {
-                      for ( vecinoInicialColumna = Matrix.getArrayDatosPosition(1); vecinoInicialColumna < Matrix.getArrayDatosPosition(2); vecinoInicialColumna++) {
-                          System.out.println(""+Matrix.getMatrixPosition(vecinoInicialFila, vecinoInicialColumna));
-                          if(Matrix.getMatrixPosition(vecinoInicialFila, vecinoInicialColumna).equals(Cell.alive())){
+                  for ( NeighboorInitialRow = Matrix.getArrayDatosPosition(0); NeighboorInitialRow < Matrix.getArrayDatosPosition(2); NeighboorInitialRow++) {
+                      for ( NeighboorInitialColumn = Matrix.getArrayDatosPosition(1); NeighboorInitialColumn < Matrix.getArrayDatosPosition(2); NeighboorInitialColumn++) {
+                          System.out.println(""+Matrix.getMatrixPosition(NeighboorInitialRow, NeighboorInitialColumn));
+                          if(Matrix.getMatrixPosition(NeighboorInitialRow, NeighboorInitialColumn).equals(Cell.alive())){
                               alive = alive +1;
                           }else{
                               System.out.print("hola");
