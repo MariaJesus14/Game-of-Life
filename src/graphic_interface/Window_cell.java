@@ -15,7 +15,7 @@ import data_structures.Cell;
 /**
  *@author Jerry Rivera
  * @author Roibin Elizondo
- * @Maria Rodriguez
+ * @author Maria Rodriguez
  */
 public class Window_cell {
     GestorEs gestor = new GestorEs();

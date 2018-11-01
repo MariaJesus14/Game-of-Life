@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 /**
  *@author Jerry Rivera
  * @author Roibin Elizondo
- * @Maria Rodriguez
+ * @author Maria Rodriguez
  */
 public class GestorEs {
    public void mostrarMensaje (String mensaje){

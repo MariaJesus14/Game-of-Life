@@ -8,7 +8,7 @@ package data_structures;
 /**
  *@author Jerry Rivera
  * @author Roibin Elizondo
- * @Maria Rodriguez
+ * @author Maria Rodriguez
  */
 public class Matrix {
     Cell cell = new Cell();

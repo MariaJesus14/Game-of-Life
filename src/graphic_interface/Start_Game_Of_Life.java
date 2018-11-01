@@ -8,7 +8,7 @@ package graphic_interface;
 /**
  *@author Jerry Rivera
  * @author Roibin Elizondo
- * @Maria Rodriguez
+ * @author Maria Rodriguez
  */
 public class Start_Game_Of_Life {
 

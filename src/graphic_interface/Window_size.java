@@ -14,7 +14,7 @@ import logical_model.GestorEs;
 /**
  *@author Jerry Rivera
  * @author Roibin Elizondo
- * @Maria Rodriguez
+ * @author Maria Rodriguez
  */
 public class Window_size {
 
