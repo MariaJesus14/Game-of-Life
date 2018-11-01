@@ -25,7 +25,7 @@ public class Window_size {
         boolean back = true;
         String buttons[] = {"8 x 8", "9 x 9", "10 x 10", "11 x 11", "12 x 12", "13 x 13", "14 x 14", "15 x 15", "16 x 16", "17 x 17", "18 x 18", "19 x 19", "20 x 20"};
         Icon iconSize = new ImageIcon(getClass().getResource("/graphic_interface/iconSize.jpg"));
-        try {
+       // try {
 
             while (back == true) {
                 String option = (String) JOptionPane.showInputDialog(null, "Elija el tamaño de la cuadricula para iniciar el juego", "Tamaño de cuadricula", JOptionPane.INFORMATION_MESSAGE, iconSize, buttons, buttons[0]);
@@ -113,7 +113,7 @@ public class Window_size {
                     default:
                 }
             }
-        } catch (Exception e) {
-        }
+       // } catch (Exception e) {
+        //}
     }
 }
