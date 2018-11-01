@@ -12,8 +12,9 @@ import data_structures.Matrix;
 import logical_model.GestorEs;
 
 /**
- *
- * @author Roibin
+ *@author Jerry Rivera
+ * @author Roibin Elizondo
+ * @Maria Rodriguez
  */
 public class Window_size {
 

@@ -6,8 +6,9 @@
 package data_structures;
 
 /**
- *
- * @author Usuario
+ *@author Jerry Rivera
+ * @author Roibin Elizondo
+ * @Maria Rodriguez
  */
 public class Cell {
     Matrix matrixGame = new Matrix ();

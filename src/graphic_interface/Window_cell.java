@@ -13,8 +13,9 @@ import logical_model.GestorEs;
 import data_structures.Cell;
 
 /**
- *
- * @author Roibin
+ *@author Jerry Rivera
+ * @author Roibin Elizondo
+ * @Maria Rodriguez
  */
 public class Window_cell {
     GestorEs gestor = new GestorEs();

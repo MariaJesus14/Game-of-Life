@@ -8,8 +8,9 @@ package logical_model;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author usuario
+ *@author Jerry Rivera
+ * @author Roibin Elizondo
+ * @Maria Rodriguez
  */
 public class GestorEs {
    public void mostrarMensaje (String mensaje){
