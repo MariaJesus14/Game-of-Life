@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Clase que contiene metodo para la estructuras de datos.
  */
 package data_structures;
 
@@ -25,7 +23,11 @@ public class Cell {
     public static String dead(){
         return dead;
     }
-    
+    /**
+     * Declaracion:  public static void rule1 ()
+     * 
+     * 
+     */
     public static void rule1 (){ 
       int alive = 0;
       int NeighboorInitialRow;
